@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge" />
+    <meta name="Viewport" content="width=device-width initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header id="homehead"></header>
+    <nav>
+      <a href="home.html" class="btn2">Home</a>
+      <a href="contactus.html" class="btn2"> Contact Us!</a>
+      <a href="#" class="btn2"> Products and Services</a>
+    </nav>
+    <h1>Main Page</h1>
+    <div class="column-layout">
+      <div class="maincolumn">
+        <h2>Berry's Billionares</h2>
+        <p>
+          Berry's Billionares is a restaurant founded by Amanda Berry. The
+          restaurant prides itself in creating its foundation on classic lunch
+          and dinner options made for people to feel "like billionares".
+          Moreover, this restaurant was inspired by Amanda's home workplace,
+          which has what is called "Billionare's Bacon".
+        </p>
+      </div>
+      <div class="sidebar">
+        <img
+          src="https://cdn.glitch.global/956ffc58-b611-4d83-8ca3-7782677255c3/Fearless.png?v=1669074897244"
+          alt="Logo"
+          style="width:100px height: 100px"
+        />
+        <ul>
+          <li>Amazing food all day! 7am-9pm!</li>
+          <li>
+            Unique service experience! Our employees feel like one big family!
+          </li>
+          <li>20% off drinks on Fridays 3pm-5pm!</li>
+        </ul>
+      </div>
+    </div>
+    <div id="coloredcontainers" class="coloredcontainers">
+      <div class="color1">
+        <h3>Our Menu</h3>
+        <p>
+          Check out our menu! It changes periodically, so don't miss a thing!
+        </p>
+        <nav>
+          <a href="#" class="btn2">Learn More</a>
+        </nav>
+      </div>
+      <div class="color2">
+        <h3>Schedule a party!</h3>
+        <p>
+          We take catering orders and reservations for parties over 8! Schedule
+          them here in advance (24 hours for reservations, 1 week for catering)
+        </p>
+        <nav>
+          <a href="#" class="btn2">Learn More</a>
+        </nav>
+      </div>
+    </div>
+   <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("coloredcontainers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
